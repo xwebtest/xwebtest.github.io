@@ -259,16 +259,16 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" id="swiper-slide1">
                         <!-- <a href="" target="_blank" title="中国遥感卫星地面站数据共享门户"> -->
-                            <img src="static/picture/banner_01.jpg" title="中国遥感卫星地面站数据共享门户" alt="中国遥感卫星地面站数据共享门户" style="display: block;width: 100%;height: auto !important;">
+                            <img src="static/picture/banner_01.jpg" title="中国遥感卫星地面站数据共享门户" alt="中国遥感卫星地面站数据共享门户" style="display: block;width: 100%;height: 200px !important;">
                             <div class="datect" style="">
                                 <div class="ctauto" style="">
                                     <!-- <div class="introduction" style=""> -->
-                                        <p style="font-size: 36px;color:#fff;">
-                                        Project Information
+                                        <p style="font-size: 100px;color:#fff;">
+                                        About project
                                         </p>
-                                        <p style="font-size: 20px;line-height: 24px;color:rgb(210, 210, 210)">
-                                            The National Key Research and Development Program project "Construction of Domestic Medium <br> High Resolution Wide Band Multi-spectral Satellite Data set and Efficient International Service" <br> was officially approved in December 2020. The project was undertaken by CGSTL <br>(Changguang Satellite Technology Co., LTD.), Aerospace Information Research Institute,<br> Chinese Academy of Sciences, and Geoscience Australia. The project is one of the <br>first earth Observation Organization (GEO) cooperation projects set up by the Ministry of Science and Technology of the People's Republic of China.
-                                            The project will use the global coverage data of Jinlin-1 GP01 /02 satellites to develop the first international large area dataset--Domestic Medium and High Resolution Wide Band Multi-spectral Satellite Dataset (JLS-5M) with 5-meter resolution and 19 bands to support quantitative remote sensing applications, and carry out international sharing services for GEO members. Through in-depth cooperation with superior units, the project will also break through a number of key technologies, build high-quality dataset sharing service system, form remote sensing service specifications from large regional task planning to data update, and establish standard data products and dynamic update system that can be compared internationally.
+                                        <!-- <p style="font-size: 20px;line-height: 24px;color:rgb(210, 210, 210)">
+                                        The National Key Research and Development Program project "Construction of Domestic Medium and <br> High Resolution Wide Band Multi-spectral Satellite Data set and Efficient International Service" <br> was officially approved in December 2020. The project was undertaken by CGSTL <br>(Changguang Satellite Technology Co., LTD.), Aerospace Information Research <br>Institute, Chinese Academy of Sciences, and Geoscience Australia. The project <br> is one of the first earth Observation Organization (GEO) cooperation projects set up by the Ministry of Science and Technology of the People's Republic of China.
+                                         The project will use the global coverage data of Jinlin-1 GP01 /02 satellites to develop the first international large area dataset--Domestic Medium and High Resolution Wide Band Multi-spectral Satellite Dataset (JLS-5M) with 5-meter resolution and 19 bands to support quantitative remote sensing applications, and carry out international sharing services for GEO members. Through in-depth cooperation with superior units, the project will also break through a number of key technologies, build high-quality dataset sharing service system, form remote sensing service specifications from large regional task planning to data update, and establish standard data products and dynamic update system that can be compared internationally.
                                         </p>
                                         <p style="color:rgb(255, 255, 255);text-decoration: underline;font-size: 20px;">
                                             <a href="file:///C:/Users/pc-gis/Desktop/地面站数据共享门户页面源码/project.html" id="abc" ;> View>>
@@ -284,7 +284,7 @@
                                             <ul class="datec">
                                                 <li>
                                                     <p>
-                                                        477,038<span>Scenes</span>
+                                                        477,038<span>scenes</span>
                                                     </p>
                                                 </li>
                                                 <li>
@@ -294,10 +294,10 @@
                                                 </li>
                                                 <li>
                                                     <p>
-                                                        2<span>Years</span>
+                                                        2<span>years</span>
                                                     </p>
                                                 </li>
-                                                <!-- <li>
+                                                <li>
                                                     <p>
                                                         55,614<span>人</span>
                                                     </p>
@@ -320,9 +320,9 @@
                                                         385,084<span>GB</span>
                                                     </p>
                                                     <span>已下载数据总量 </span>
-                                                </li> -->
+                                                </li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                         <!-- <p style="font-size: 36px;color:#fff;margin-top: 20px;">
                                         JL-5M Dataset Introduction
                                         </p>
@@ -382,6 +382,35 @@
                 </div>
                 <!-- <div id="bannerpagination" class="pagination"> </div> -->
             </div>
+        </div>
+        <div class="container" style="position:relative;">
+            <div class="intitb1" style="margin-top: 50px;">
+                <p id="project_title">
+                    Project Information
+                    <style>
+                        #project_title{
+                          color:black;
+                          font-weight: 700;
+                          text-align: center;
+                          font-size:40px;
+
+                        }
+                      </style>
+                    </p>
+            </div>
+            <a id="project_information">
+                &emsp;&emsp;The National Key Research and Development Program project "Construction of Domestic Medium and High Resolution Wide Band Multi-spectral Satellite Data set and Efficient International Service" was officially approved in December 2020. The project was undertaken by CGSTL (Changguang Satellite Technology Co., LTD.), Aerospace Information Research Institute, Chinese Academy of Sciences, and Geoscience Australia. The project is one of the first earth Observation Organization (GEO) cooperation projects set up by the Ministry of Science and Technology of the People's Republic of China.
+                The project will use the global coverage data of Jinlin-1 GP01 /02 satellites to develop the first international large area dataset--Domestic Medium and High Resolution Wide Band Multi-spectral Satellite Dataset (JLS-5M) with 5-meter resolution and 19 bands to support quantitative remote sensing applications, and carry out international sharing services for GEO members. Through in-depth cooperation with superior units, the project will also break through a number of key technologies, build high-quality dataset sharing service system, form remote sensing service specifications from large regional task planning to data update, and establish standard data products and dynamic update system that can be compared internationally.
+                <style>
+                #project_information{
+                    color:black;
+                    font-weight: 500;
+                    /* text-align: center; */
+                    text-align:justify;
+                    font-size:25px;
+                  }
+                </style>
+            </a>
         </div>
         <script>
             var mySwiper = new Swiper('#bannerSwiper', {
@@ -577,7 +606,7 @@
             margin-top: 20px;
         }
     </style>
-    <div class="container" style="position:relative;">
+    <!-- <div class="container" style="position:relative;">
         <div class="intitb1">
             <div class="dataset">
                 <div class="datasetlogo">
@@ -612,15 +641,15 @@
                 <div class="yingxiangming">
                     <div class="infontb">
                         <div class="datasetxiangximingcheng">
-                            <span><a href="https://www.noda.org.cn/datasharing/datasetDetails/621f09a60681c03210d53986">Jilin No.1 Spectral Star (JLS-5M) ASEAN 10 Dataset (2020)</a></span>
+                            <span><a href="https://www.noda.org.cn/datasharing/datasetDetails/621f09a60681c03210d53986">吉林一号光谱星（JLS-5M)东盟十国数据集（2020）</a></span>
                         </div>
                         <div class="datasettongji">
                             <div class="datasettongji1">
-                                <p>Visits：1441 times Downloads：15511 times 
+                                <p>Visits：15511 times Downloads：15511 times 
                                 </p>
                             </div>
                             <div class="datasettongji2">
-                                <p>Data pieces：38493 scenes Data bulk：6039 GB
+                                <p>Data pieces：38493 scenes Data bulk：54GB
                                 </p>
                             </div>
                         </div>
@@ -640,15 +669,15 @@
                 <div class="yingxiangming">
                     <div class="infontb">
                         <div class="datasetxiangximingcheng">
-                            <span><a href="https://www.noda.org.cn/datasharing/theme/viewThemeById?id=629494dd86c4a76d5fb7d2ca">Jilin No.1 spectral star (JLS-5M) Northeast black soil region dataset (2020)</a></span>
+                            <span><a href="https://www.noda.org.cn/datasharing/theme/viewThemeById?id=629494dd86c4a76d5fb7d2ca">吉林一号光谱星（JLS-5M)东北黑土区数据集（2020）</a></span>
                         </div>
                         <div class="datasettongji">
                             <div class="datasettongji1">
-                                <p>Visits：433 times Downloads：15511 times 
+                                <p>Visits：15511 times Downloads：15511 times 
                                 </p>
                             </div>
                             <div class="datasettongji2">
-                                <p>Data pieces：38493 scenes Data bulk：206.8 GB
+                                <p>Data pieces：38493 scenes Data bulk：54GB
                                 </p>
                             </div>
                         </div>
@@ -669,7 +698,7 @@
                 </p>
                 </div>
             
-                <!-- <div class="moredataset">
+                <div class="moredataset">
                     <p style="">
                         <a href="/" id="abcde";> MORE>>
                             <style>
@@ -682,7 +711,7 @@
                             </style>
                         </a>
                     </p>
-                </div> -->
+                </div>
             </div>
             <div class="shujujichuangkou">
                 <img src="static/images/中国GEO.png" style="width:100%">
@@ -696,7 +725,7 @@
                 </p>
                 </div>
         
-                <!-- <div class="moredataset">
+                <div class="moredataset">
                     <p style="">
                         <a href="/" id="abcde";> MORE>>
                             <style>
@@ -709,12 +738,10 @@
                             </style>
                         </a>
                     </p>
-                </div> -->
+                </div>
             </div>
             <div class="shujujichuangkou">
-                <a href="https://www.opendatacube.org/">
-                    <img src="static/images/ODC.png" style="width:100%" >
-                </a>
+
             </div>
         </div>
     </div>
@@ -732,7 +759,7 @@
                         
                         <div class="moredataset">
                             <p style="">
-                                <a href="Events.html" id="abcde";> MORE>>
+                                <a href="/" id="abcde";> MORE>>
                                     <style>
                                       #abcde{
                                         color:#3287d8;
@@ -779,7 +806,7 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="footer  wow fadeInUp">
         <div class="container">
             <div class="footg">
@@ -810,7 +837,7 @@
                     </div>
                     <div class="information">
                         <p style="font-size: 15px;line-height: 24px;color:rgb(230, 230, 230)">
-                        Contact:86-010-82178959</p>
+                        Contact:86-10-82178959</p>
                     </div>
                 </div>
                 <div class="jiaozhu_4">
@@ -823,7 +850,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="footb col-lg-5 col-md-5  col-sm-6 col-xs-6 ">
+                <div class="footb col-lg-5 col-md-5  col-sm-6 col-xs-6 ">
                     <div class="foottit"><i><img src="static/images/icon_01.png" alt=""></i> 单位地址：北京市海淀区邓庄南路9号</div>
                 </div>
                 <div class="footb col-lg-5 col-md-5  col-sm-6 col-xs-6 ">
@@ -837,7 +864,7 @@
                 <div class="footb col-lg-5 col-md-5  col-sm-6 col-xs-6 ">
                     <div class="foottit"><i><img src="static/images/icon_04.png" alt=""></i> QQ客服：871164456 (24小时可留言)
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
         <!-- <div class="foot wow fadeInUp hidden-md hidden-xs">
